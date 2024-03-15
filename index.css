@@ -676,7 +676,7 @@ input[type=number] {
         padding:30px 0px;
         color: #fff;
         border-bottom-right-radius: 50px;
-        font-size: .8rem;
+        font-size: .6rem;
         text-align: center;
     }
     .reviews-child{
@@ -691,6 +691,7 @@ input[type=number] {
         height: 50px;
         color: #fff;
         left: 50%;
+        margin: 10px;
         padding: relative;
         border: 1px solid #fff;
     }
@@ -702,7 +703,7 @@ input[type=number] {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
         padding: 50px 0px;
         background-color: #f0f9f8;
         border-top-left-radius: 100px;
@@ -760,7 +761,7 @@ input[type=number] {
     }
     
     .store-links{
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -789,8 +790,8 @@ input[type=number] {
     }
     .move-arrow{
         position: relative;
-        left: -30px;
-        top: 5px;
+        left: 200px;
+        top: -25px;
         color: teal;
     }
     /* footer */
@@ -857,13 +858,15 @@ input[type=number] {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-        padding: 10px 40px;
-        gap: 20px;
+        padding: 0px;
+        margin: 30px;
+        overflow: hidden;
+        gap: 10px;
     }
     
     .image-item{
         border-radius: 15px;
-        width: 150px;
+        width: 120px;
     }
     
     /* html3 */
@@ -899,7 +902,6 @@ input[type=number] {
     .result-btn{
         display: flex; 
         flex-direction: column; 
-        /* width: 430px;  */
         width: 100%; 
         margin: auto; 
         gap: 10px; 
